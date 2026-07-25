@@ -7,7 +7,7 @@ export default function About() {
       {/* Background giant symbol */}
       <div
         className="absolute pointer-events-none select-none text-white/[0.03] font-bold"
-        style={{ fontSize: '30vw', top: '20%', right: '-10%', lineHeight: 1 }}
+        style={{ fontSize: "30vw", top: "20%", right: "-10%", lineHeight: 1 }}
       >
         +
       </div>
@@ -23,21 +23,31 @@ export default function About() {
           {/* Left — big statement */}
           <div className="md:col-span-7">
             <h2 className="display-large text-white">
-              WE BUILD<br />
-              <span className="text-[#FF3D00]">PRECISION</span><br />
-              OBJECTS.
+              FROM IDEAS
+              <br />
+              <span className="text-[#FF3D00]">TO</span>
+              <br />
+              ACTION.
             </h2>
             <div className="mt-12 max-w-[520px] flex flex-col gap-6">
-              <p className="text-white/60 text-lg leading-relaxed">
-                Forma is a design studio obsessed with the space between
-                engineering and art. Every object we make is the result of
-                thousands of decisions — material, proportion, weight,
-                silence.
+              <p className="text-white/60 text-[13px] leading-relaxed text-justify">
+                Ngesti Manunggal is a youth organization established on November
+                11 in Desa Ngemul, born from the shared concern of young people
+                who sought a space to grow, express their potential, and
+                contribute positively to society. Berawal dari diskusi
+                sederhana, organisasi ini berkembang menjadi wadah yang
+                mempersatukan generasi muda untuk belajar, berkolaborasi, dan
+                bergerak bersama dengan semangat persatuan, kreativitas, serta
+                kepedulian terhadap lingkungan dan masyarakat.
               </p>
-              <p className="text-white/40 text-base leading-relaxed">
-                We believe the best products don't shout. They reveal
-                themselves slowly, through use, through time. Our work is a
-                quiet argument against the disposable.
+              <p className="text-white/40 text-[12px] leading-relaxed text-justify">
+                Berlandaskan nilai gagasan, inovasi, kreativitas, keimanan, dan
+                sopan santun, Ngesti Manunggal terus membina karakter pemuda
+                melalui budaya musyawarah dan bimbingan para tokoh masyarakat.
+                Dengan keanggotaan lebih dari 30 orang berusia 15–35 tahun,
+                organisasi ini berkomitmen untuk menciptakan generasi yang
+                berintegritas, mampu memimpin, dan memberikan dampak nyata bagi
+                kemajuan Desa Ngemul serta masyarakat secara luas.
               </p>
             </div>
           </div>
@@ -46,10 +56,10 @@ export default function About() {
           <div className="md:col-span-5 flex flex-col gap-8 pt-4">
             <div className="grid grid-cols-2 gap-8">
               {[
-                { n: '12+', l: 'YEARS IN PRACTICE' },
-                { n: '240', l: 'OBJECTS SHIPPED' },
-                { n: '38', l: 'GLOBAL PARTNERS' },
-                { n: '06', l: 'DESIGN AWARDS' },
+                { n: "12+", l: "Years of Activity" },
+                { n: "40", l: "Programs Completed" },
+                { n: "38", l: "Active Members" },
+                { n: "0", l: "ADD" },
               ].map((s) => (
                 <div key={s.l} className="border-t border-white/10 pt-4">
                   <p className="display-medium text-white">{s.n}</p>
@@ -61,10 +71,10 @@ export default function About() {
             <div className="border-t border-white/10 pt-6">
               <p className="label mb-3">PHILOSOPHY</p>
               <p className="text-white/50 text-sm leading-relaxed">
-                "Form is not decoration. Form is the visible shape of an
-                idea taken seriously."
+                "And say, 'Work, for Allah will see your deeds, and so will His
+                Messenger and the believers.'"
               </p>
-              <p className="label mt-4 text-white/30">— STUDIO MANIFESTO</p>
+              <p className="label mt-4 text-white/30"> At-Taubah 9:105</p>
             </div>
           </div>
         </div>
@@ -74,12 +84,17 @@ export default function About() {
           <div className="marquee-track">
             {Array.from({ length: 4 }).map((_, i) => (
               <div key={i} className="flex items-center gap-12 pr-12">
-                {['ENGINEERING', 'AESTHETIC', 'PRECISION', 'MATERIAL', 'SILENCE'].map((w) => (
-                  <span key={w} className="display-medium text-white/10 flex items-center gap-12">
-                    {w}
-                    <span className="text-[#FF3D00] text-2xl">/</span>
-                  </span>
-                ))}
+                {["UNITY", "IDEAS", "COMPASSION", "INTEGRITY", "DEVOTION"].map(
+                  (w) => (
+                    <span
+                      key={w}
+                      className="display-medium text-white/10 flex items-center gap-12"
+                    >
+                      {w}
+                      <span className="text-[#FF3D00] text-2xl">/</span>
+                    </span>
+                  ),
+                )}
               </div>
             ))}
           </div>

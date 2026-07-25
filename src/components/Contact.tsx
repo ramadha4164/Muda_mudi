@@ -1,13 +1,28 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  // ← LETAKKAN DI SINI sosial media
+  const socials = [
+    {
+      name: "INSTAGRAM",
+      url: "https://www.instagram.com/ngestimanunggal_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    },
+    {
+      name: "TIKTOK",
+      url: "https://www.tiktok.com/@ngestimanunggal_official?is_from_webapp=1&sender_device=pc",
+    },
+    {
+      name: "WHATSAPP",
+      url: "https://wa.me/6281234567890",
+    },
+  ];
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     setSent(true);
-    setForm({ name: '', email: '', message: '' });
+    setForm({ name: "", email: "", message: "" });
     setTimeout(() => setSent(false), 4000);
   };
 
@@ -19,7 +34,12 @@ export default function Contact() {
       {/* Giant decorative slash */}
       <div
         className="absolute pointer-events-none select-none text-white/[0.04] font-bold"
-        style={{ fontSize: '36vw', bottom: '-10%', right: '-5%', lineHeight: 1 }}
+        style={{
+          fontSize: "36vw",
+          bottom: "-10%",
+          right: "-5%",
+          lineHeight: 1,
+        }}
       >
         /
       </div>
@@ -35,7 +55,8 @@ export default function Contact() {
           {/* Left — big call */}
           <div className="md:col-span-5">
             <h2 className="display-large text-white">
-              LET'S<br />
+              LET'S
+              <br />
               <span className="text-[#FF3D00]">TALK.</span>
             </h2>
             <p className="text-white/50 text-base leading-relaxed mt-8 max-w-[360px]">
@@ -47,21 +68,32 @@ export default function Contact() {
               <div>
                 <p className="label mb-2">STUDIO</p>
                 <p className="text-white text-sm">
-                  14 Werkstraat, Rotterdam<br />Netherlands, 3011 AK
+                  jl capung, Sidorejo
+                  <br />
+                  Bendosari, 57527 SKH
                 </p>
               </div>
               <div>
                 <p className="label mb-2">EMAIL</p>
-                <a href="mailto:studio@forma.design" className="text-white text-sm underline-orange">
-                  studio@forma.design
+                <a
+                  href="mailto:N.manunggal@gmail.com"
+                  className="text-white text-sm underline-orange"
+                >
+                  N.manunggal@gmail.com
                 </a>
               </div>
               <div>
                 <p className="label mb-2">SOCIAL</p>
                 <div className="flex gap-6">
-                  {['INSTAGRAM', 'BEHANCE', 'ARE.NA'].map((s) => (
-                    <a key={s} href="#" className="label hover:text-white transition-colors">
-                      {s}
+                  {socials.map((social) => (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="label hover:text-white transition-colors"
+                    >
+                      {social.name}
                     </a>
                   ))}
                 </div>
@@ -77,7 +109,7 @@ export default function Contact() {
                   <label className="label">YOUR NAME</label>
                   <input
                     className="contact-input"
-                    placeholder="Jane Doe"
+                    placeholder="NG.MANUNGGAL"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
                     required
@@ -88,9 +120,11 @@ export default function Contact() {
                   <input
                     type="email"
                     className="contact-input"
-                    placeholder="jane@studio.com"
+                    placeholder="N.manunggal@gmail.com"
                     value={form.email}
-                    onChange={(e) => setForm({ ...form, email: e.target.value })}
+                    onChange={(e) =>
+                      setForm({ ...form, email: e.target.value })
+                    }
                     required
                   />
                 </div>
@@ -102,7 +136,9 @@ export default function Contact() {
                   rows={4}
                   placeholder="Tell us about the object you want to make..."
                   value={form.message}
-                  onChange={(e) => setForm({ ...form, message: e.target.value })}
+                  onChange={(e) =>
+                    setForm({ ...form, message: e.target.value })
+                  }
                   required
                 />
               </div>
