@@ -32,8 +32,8 @@ export default function About() {
             <div className="mt-12 max-w-[520px] flex flex-col gap-6">
               <p className="text-white/60 text-[13px] leading-relaxed text-justify">
                 Ngesti Manunggal is a youth organization established on November
-                11 in Desa Ngemul, born from the shared concern of young people
-                who sought a space to grow, express their potential, and
+                10 1997 in Desa Ngemul, born from the shared concern of young
+                people who sought a space to grow, express their potential, and
                 contribute positively to society. Berawal dari diskusi
                 sederhana, organisasi ini berkembang menjadi wadah yang
                 mempersatukan generasi muda untuk belajar, berkolaborasi, dan

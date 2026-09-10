@@ -1,7 +1,7 @@
 const posts = [
   {
     id: "N°01",
-    date: "2024.03.12",
+    date: "2023.04.15",
     cat: "SOSIAL",
     title:
       "Kebahagiaan di Bulan Ramadhan Berbagi Bersama dan Menebar Kebaikan.",
@@ -12,11 +12,11 @@ const posts = [
 
 Melalui kegiatan tersebut, Ngesti Manunggal menegaskan komitmennya untuk menumbuhkan nilai kepedulian, kebersamaan, dan semangat gotong royong. Kegiatan ini juga mempererat hubungan antara anggota organisasi dan masyarakat sekitar.
 Dengan berbagi takjil, Ngesti Manunggal menunjukkan bahwa kebersamaan dan kepedulian merupakan nilai yang harus terus dijaga serta diharapkan dapat menginspirasi generasi muda untuk terus berbuat kebaikan.`,
-    read: "6 MIN",
+    read: "--0",
   },
   {
     id: "N°02",
-    date: "2024.02.28",
+    date: "2023.11.9",
     cat: "KEIMANAN",
     title: "Kajian Islam dalam Rangka Hari Ulang Tahun Ngesti Manunggal",
     excerpt: "Bertumbuh dalam Kebersamaan dan Keimanan",
@@ -26,11 +26,11 @@ Dengan berbagi takjil, Ngesti Manunggal menunjukkan bahwa kebersamaan dan kepedu
 Kajian ini menjadi momen refleksi bahwa perjalanan organisasi tidak hanya diukur dari banyaknya program yang terlaksana, tetapi juga dari kualitas karakter para anggotanya. Melalui diskusi dan kajian bersama, setiap peserta diajak untuk terus meningkatkan keimanan, menjaga persaudaraan, serta menjadikan organisasi sebagai wadah yang membawa manfaat bagi masyarakat.
 
 Semangat kebersamaan yang terbangun dalam kegiatan ini menjadi pengingat bahwa keberhasilan organisasi lahir dari persatuan, nilai moral, dan komitmen untuk terus berkembang bersama.`,
-    read: "4 MIN",
+    read: "--0",
   },
   {
     id: "N°03",
-    date: "2024.02.10",
+    date: "2024.08.17",
     cat: "NASIONALISME",
     title: "Semarak HUT RI ke-79 Bersama Mahasiswa UNDIP ",
     excerpt: "Kolaborasi Membangun Semangat Kebangsaan",
@@ -40,11 +40,11 @@ Semangat kebersamaan yang terbangun dalam kegiatan ini menjadi pengingat bahwa k
 Beragam perlombaan, permainan tradisional, dan kegiatan kebersamaan diselenggarakan sebagai bentuk penghormatan terhadap perjuangan para pahlawan sekaligus mempererat hubungan antarwarga. Kolaborasi ini menunjukkan bahwa sinergi antara organisasi kepemudaan dan dunia akademik mampu menghadirkan kegiatan yang kreatif, edukatif, dan bermanfaat bagi masyarakat.
 
 Melalui peringatan HUT RI ke-79, Ngesti Manunggal menegaskan komitmennya untuk terus menjadi organisasi yang aktif membangun semangat persatuan, gotong royong, dan kepedulian sosial, sekaligus mengajak generasi muda untuk terus berkontribusi dalam pembangunan masyarakat dan bangsa.`,
-    read: "8 MIN",
+    read: "--0",
   },
   {
     id: "N°03",
-    date: "2024.02.10",
+    date: "0.0.0",
     cat: "BUDAYA",
     title:
       "Sanggar Seni Turonggo Mudho Ontoseno: Rumah Generasi Muda dalam Melestarikan Budaya Jawa ",
@@ -55,7 +55,7 @@ Melalui peringatan HUT RI ke-79, Ngesti Manunggal menegaskan komitmennya untuk t
 Sebagai salah satu sanggar seni yang aktif dalam pelestarian budaya Jawa, Turonggo Mudho Ontoseno secara rutin menyelenggarakan latihan Tari Topeng Gedruk dan latihan Gamelan Jawa. Setiap pertemuan bukan sekadar latihan seni, melainkan ruang untuk belajar tentang filosofi kehidupan, membangun disiplin, memperkuat rasa gotong royong, serta menumbuhkan kebersamaan di antara para anggotanya. Melalui proses inilah para pemuda tidak hanya menguasai teknik menari dan memainkan gamelan, tetapi juga memahami nilai-nilai luhur yang menjadi identitas budaya Jawa.
 
 Bagi Sanggar Seni Turonggo Mudho Ontoseno, melestarikan budaya bukan hanya sekadar mempertahankan sebuah tradisi atau menumbuhkan rasa bangga terhadap warisan leluhur. Lebih dari itu, budaya merupakan jati diri, media pendidikan karakter, serta jembatan yang menghubungkan generasi muda dengan sejarah, nilai, dan kearifan lokal. Dengan semangat kolaborasi dan dedikasi, sanggar ini terus mengajak masyarakat untuk bersama-sama mendukung pelestarian seni tradisional Jawa, agar Tari Topeng Gedruk, Gamelan Jawa, dan berbagai kesenian daerah lainnya tetap hidup, berkembang, serta menjadi inspirasi bagi generasi masa kini dan masa depan.`,
-    read: "8 MIN",
+    read: "--0",
   },
 ];
 
