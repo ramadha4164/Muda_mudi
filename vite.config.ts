@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
-  plugins: [react()],
-
   base: "/Muda_mudi/",
+
+  plugins: [react()],
 
   resolve: {
     alias: {
